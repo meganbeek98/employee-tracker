@@ -1,8 +1,11 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "---------------------------------------------------\r ## Devloped By: Megan Beekman (2022), [GitHub profile --->](https://github.com/meganbeek98)\r     developed using: JavaScript, jQuery, Node.js, MySQL",
   "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,16 +21,9 @@
   },
   "homepage": "https://github.com/meganbeek98/employee-tracker#readme",
   "dependencies": {
-    "chalk": "^4.1.2",
-    "console-table": "^0.1.2",
     "console.table": "^0.10.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "figlet": "^1.5.2",
-    "inquirer": "^7.3.3",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.3.3",
-    "nodemon": "^2.0.19",
-    "validator": "^13.7.0"
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.5",
+    "mysql2": "^2.3.0"
   }
 }
