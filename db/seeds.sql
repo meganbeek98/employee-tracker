@@ -6,14 +6,17 @@ VALUES ("Sales"),
        ("Research");
 
 INSERT INTO role (title, salary, department_id)
-VALUES ("Sales Manager", 90000, 1),
-       ("Sales Lead", 80000, 1),
-       ("Sales Representative", 45000, 1),
+VALUES ("Sales Manager", 90000, 7),
+       ("Sales Lead", 80000, 2),
+       ("Sales Representative", 45000, 6),
        ("Accounting Manager", 85000, 2),
        ("HR Manager", 80000, 3),
        ("HR Representative", 35000, 3),
        ("Research Tech", 100000, 4),
-       ("Research Developer", 85000, 4);
+       ("Research Developer", 85000, 8),
+       ("Manager", 100, 1),
+       ("Lead", 200, 2)
+       ("Other/Not-Specified", 111, 111);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Joe", "Smith", 1, NULL),
