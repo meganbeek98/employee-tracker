@@ -129,7 +129,7 @@ const newRole = async () => {
  
 }
 
-// Delete and Employee
+// Delete an Employee
     // Bonus Objective
 const delEmp = async () => {
   const empArr = await CHOICES.NonMgmtChoices();
