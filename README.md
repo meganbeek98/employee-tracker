@@ -1,8 +1,8 @@
-# Employee Tracker -- MySQL
+i# Employee Tracker -- MySQL
 ### OSU Bootcamp Challenge 12
 ---------------------------------------------------
 ## Devloped By: Megan Beekman (2022), [GitHub profile --->](https://github.com/meganbeek98)
-    developed using: JavaScript, jQuery, Node.js, MySQL
+    developed using: MySQL, JavaScript, jQuery, Node.js
 
 ---------------------------------------------------
 
@@ -39,7 +39,9 @@
 Chart from 'Mock-up' showing the design of the database schema:
 <img src="./SS-mockup1.png"></img>
 
-<img src=""></img>
+<img src="./SS-prompt.png"></img>
+
+<img src="./SS-extension.png"></img>
 
 ---------------------------------------------------
 

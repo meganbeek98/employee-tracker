@@ -38,3 +38,19 @@ CREATE TABLE employee (
   FOREIGN KEY (role_id) 
     REFERENCES role(id)
 );
+
+
+-- Mock Data
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Joe", "Smith", 1, NULL),
+       ("Sally", "Suede", 2, 1),
+       ("Bobby", "Ross", 3, 1),
+       ("Ricardo", "Sanchez", 4, NULL),
+       ("Barbara", "James", 5, 4),
+       ("Meghan", "Desmond", 6, 4),
+       ("Seth", "Green", 7, NULL),
+       ("Sarah", "Heid", 8, 7),
+       ("Billy", "Roberts", 9, 7),
+       ("Max", "Pauley", 10, NULL),
+       ("Dave", "Hicks", 11, 10),
+       ("Wesley", "David", 12, 10);
