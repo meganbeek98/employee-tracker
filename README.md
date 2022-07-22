@@ -34,7 +34,10 @@
 
 ---------------------------------------------------
 
-## Screenshots: <br>
+## Screenshots and Media: <br>
+
+### Video Demo at link below:
+## [Screencast on Google Drive](https://drive.google.com/file/d/1ak939wjKFf_v6HKiDCa3px8wrZnXkPZJ/view)
 
 Chart from 'Mock-up' showing the design of the database schema:
 <img src="./SS-mockup1.png"></img>
@@ -42,6 +45,8 @@ Chart from 'Mock-up' showing the design of the database schema:
 <img src="./SS-prompt.png"></img>
 
 <img src="./SS-extension.png"></img>
+
+## [Screencast on Google Drive](https://drive.google.com/file/d/1ak939wjKFf_v6HKiDCa3px8wrZnXkPZJ/view)
 
 ---------------------------------------------------
 
@@ -64,9 +69,9 @@ Chart from 'Mock-up' showing the design of the database schema:
 
 ## Links: <br>
 
-[GitHub Repository](https://github.com/meganbeek98/employee-tracker.git)
+## [GitHub Repository](https://github.com/meganbeek98/employee-tracker.git)
 
-[insert link description](insert-actual-link-here)
+## [Screencast on Google Drive](https://drive.google.com/file/d/1ak939wjKFf_v6HKiDCa3px8wrZnXkPZJ/view)
 
 ----------------------------------------------------
 
