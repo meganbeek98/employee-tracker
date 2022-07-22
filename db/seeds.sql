@@ -1,3 +1,4 @@
+-- Active: 1658478301122@@localhost@3306@company_db
 
 INSERT INTO department (department_name)
 VALUES ("Sales"),

@@ -1,10 +1,9 @@
--- Active: 1658475986199@@localhost@3306@company_db
 DROP DATABASE IF EXISTS company_db;
 CREATE DATABASE company_db;
 
 USE company_db;
 
--- Department
+-- Department Name
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT,
   department_name VARCHAR(30) NOT NULL,
@@ -13,7 +12,7 @@ CREATE TABLE department (
   UNIQUE KEY (department_name)
 );
 
--- name, salary, department
+-- name, salary, and department
 CREATE TABLE role (
   id INT NOT NULL AUTO_INCREMENT,
   title VARCHAR(30) NOT NULL,
@@ -26,7 +25,7 @@ CREATE TABLE role (
 );
 
 
--- first name, last name, role, manager
+-- first name, last name, role, and manager
 CREATE TABLE employee (
   id INT NOT NULL AUTO_INCREMENT,
   first_name VARCHAR(30) NOT NULL,
