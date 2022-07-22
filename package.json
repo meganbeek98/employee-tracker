@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node db/connection.js",
     "start": "node server.js"
   },
   "repository": {
@@ -21,8 +22,10 @@
   },
   "homepage": "https://github.com/meganbeek98/employee-tracker#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "console.table": "^0.10.0",
     "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
     "inquirer": "^8.1.5",
     "mysql2": "^2.3.0"
   }

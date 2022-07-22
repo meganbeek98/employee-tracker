@@ -6,7 +6,7 @@ const CHOICES = require('./lib/CHOICES');
 // ADD NEW DEPARTMENT
 const newDept = async () => {  
 
-    const deptartment = await inquirer.prompt([
+    const department = await inquirer.prompt([
        {
          type: "input",
          name: "name",
@@ -22,7 +22,7 @@ const newDept = async () => {
       },
     ]);
   
-    await sql.addDept(deptartment);
+    await sql.addDept(department);
   
     chooseRequest();
 }
