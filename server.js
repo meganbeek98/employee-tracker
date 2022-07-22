@@ -181,7 +181,7 @@ const updateEmpRole = async () => {
 }
 
 // Update an employees Manager
-// Bonus
+    // Bonus
 const updateEmpManager = async () => {
 
   const empArr = await CHOICES.NonMgmtChoices();
