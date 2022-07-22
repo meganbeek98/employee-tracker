@@ -1,4 +1,4 @@
-i# Employee Tracker -- MySQL
+# Employee Tracker -- MySQL
 ### OSU Bootcamp Challenge 12
 ---------------------------------------------------
 ## Devloped By: Megan Beekman (2022), [GitHub profile --->](https://github.com/meganbeek98)
