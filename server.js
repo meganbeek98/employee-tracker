@@ -30,9 +30,9 @@ const newDept = async () => {
 // Add employee
 const newEmp = async () => {
 
-  const roleArr = await cHelper.roleChoices();
+  const roleArr = await CHOICES.roleChoices();
 
-  const mgmtArr = await cHelper.mgmtChoices();
+  const mgmtArr = await CHOICES.mgmtChoices();
 
   const emp = await inquirer.prompt([
       {
@@ -86,7 +86,7 @@ const newEmp = async () => {
 // Add role
 const newRole = async () => {
 
-  const choicesArr = await cHelper.deptChoices();
+  const choicesArr = await CHOICES.deptChoices();
 
   const role = await inquirer.prompt([
       {
@@ -132,7 +132,7 @@ const newRole = async () => {
 // Delete and Employee
     // Bonus Objective
 const delEmp = async () => {
-  const empArr = await cHelper.NonMgmtChoices();
+  const empArr = await CHOICES.NonMgmtChoices();
 
   const emp = await inquirer.prompt([
     {
@@ -153,9 +153,9 @@ const delEmp = async () => {
 // Update an employees role
 const updateEmpRole = async () => {
 
-  const roleArr = await cHelper.roleChoices();
+  const roleArr = await CHOICES.roleChoices();
 
-  const empArr = await cHelper.empChoices();
+  const empArr = await CHOICES.empChoices();
 
   const emp = await inquirer.prompt([
     {
@@ -184,9 +184,9 @@ const updateEmpRole = async () => {
 // Bonus
 const updateEmpManager = async () => {
 
-  const empArr = await cHelper.NonMgmtChoices();
+  const empArr = await CHOICES.NonMgmtChoices();
 
-  const mgmtArr = await cHelper.mgmtChoices();
+  const mgmtArr = await CHOICES.mgmtChoices();
 
   const emp = await inquirer.prompt([
     {
@@ -272,7 +272,7 @@ const viewBudgets = async () => {
 // Bonus Objective
 const viewEmpByDept = async () => {
 
-  const deptArr = await cHelper.deptChoices();
+  const deptArr = await CHOICES.deptChoices();
 
   inquirer.prompt([
     {
@@ -299,7 +299,7 @@ const viewEmpByDept = async () => {
 // Bonus Objective
 const viewEmpByMgr = async () => {
 
-  const mgmtArr = await cHelper.mgmtChoices();
+  const mgmtArr = await CHOICES.mgmtChoices();
 
   inquirer.prompt([
     {
