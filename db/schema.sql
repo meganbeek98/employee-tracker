@@ -1,3 +1,4 @@
+-- Active: 1658475986199@@localhost@3306@company_db
 DROP DATABASE IF EXISTS company_db;
 CREATE DATABASE company_db;
 
