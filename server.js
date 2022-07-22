@@ -253,7 +253,7 @@ const viewEmps = () => {
 }
 
 // View All Departments and their Budget 
-// Bonus Objective
+    // Bonus Objective
 const viewBudgets = async () => {
 
   sql.getBudgetByDept()
@@ -321,7 +321,6 @@ const viewEmpByMgr = async () => {
   }) 
 
 }
-
 
 const chooseRequest = () => {
   inquirer.prompt([
