@@ -1,7 +1,7 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "---------------------------------------------------\r ## Devloped By: Megan Beekman (2022), [GitHub profile --->](https://github.com/meganbeek98)\r     developed using: JavaScript, jQuery, Node.js, MySQL",
+  "description": "",
   "main": "server.js",
   "directories": {
     "lib": "lib"
